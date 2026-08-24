@@ -9,25 +9,30 @@ header .container {
     align-items: center;
 }
 
-#profile {
+.profile {
     display: flex;
     align-items: center;
     gap: 32px;
 }
 
-#profile > div {
+.profile>div {
     max-width: 384px;
 }
 
-#profile h1 {
+.profile img {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile h1 {
     font: var(--text-lg);
-    color: var(text-color-primary);
+    color: var(--text-color-primary);
     margin-bottom: 8px;
 }
 
-
-
-#info {
+.info {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -35,9 +40,8 @@ header .container {
     width: 280px;
 }
 
-#info li {
+.info li {
     display: flex;
     align-items: center;
     gap: 8px;
-
 }
