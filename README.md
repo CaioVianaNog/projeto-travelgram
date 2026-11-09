@@ -14,7 +14,7 @@ Página de perfil de viagens no estilo rede social, com cabeçalho de perfil, in
 ## ✨ Funcionalidades
 
 - Cabeçalho com logo, busca e navegação
-- Seção de perfil com foto, bio e estatísticas (país, quantidade de países e fotos)
+- Seção de perfil com foto, bio e estatísticas (cidade, quantidade de países e fotos)
 - Galeria de fotos organizada em grid
 
 ## 📚 O que aprendi
